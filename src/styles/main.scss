@@ -1,5 +1,22 @@
 body {
   margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(238, 238, 238);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 .page-container {
@@ -9,10 +26,29 @@ body {
   grid-template-rows: [page-top] 20vh [header-bottom] 1fr [page-bottom];
 }
 
-.nav__container {
-  background-color: purple;
-  grid-column: nav-start / header-start;
-  grid-row: page-top / page-bottom;
+.nav {
+  &__container {
+    display: grid;
+    grid-template-rows: auto repeat(3, 1fr);
+
+    padding: 1em;
+    background-color: purple;
+
+    grid-column: nav-start / header-start;
+    grid-row: page-top / page-bottom;
+
+    font-size: 1.5rem;
+  }
+
+  &__heading-container {
+    margin-bottom: 4rem;
+  }
+
+  &__item {
+    list-style: none;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .header__container {
