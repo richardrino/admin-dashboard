@@ -210,7 +210,7 @@ p {
 	&__container {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: auto;
+		grid-template-rows: auto 1fr;
 
 		background-color: lightblue;
 	}
