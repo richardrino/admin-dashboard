@@ -19,6 +19,10 @@ h6 {
 	margin: 0;
 }
 
+p {
+	margin: 0;
+}
+
 .page-container {
 	display: grid;
 	height: 100vh;
@@ -192,14 +196,47 @@ h6 {
 	}
 }
 
-.announcement__container {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
+.announcement {
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-auto-rows: 1fr;
 
-	background-color: lightblue;
+		background-color: lightblue;
+	}
+
+	&__heading {
+		margin-bottom: 1rem;
+	}
+
+	&__inner-container {
+		display: grid;
+		row-gap: 1rem;
+
+		padding: 2em;
+		border: 1px solid black;
+		border-radius: 1rem;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		row-gap: 0.5rem;
+	}
+
+	&__title {
+		font-weight: 600;
+	}
+
+	&__line {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
-.trending__container {
-	background-color: lightgreen;
+.trending {
+	&__container {
+		background-color: lightgreen;
+	}
 }
