@@ -16,7 +16,7 @@
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  margin: 0;\\n  font-family: Arial, Helvetica, sans-serif;\\n  color: rgb(238, 238, 238);\\n}\\n\\nul {\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6 {\\n  margin: 0;\\n}\\n\\n.page-container {\\n  display: grid;\\n  height: 100vh;\\n  grid-template-columns: [nav-start] 25vw [header-start] 1fr [header-end];\\n  grid-template-rows: [page-top] auto [header-bottom] 1fr [page-bottom];\\n}\\n\\n.nav__container {\\n  display: grid;\\n  grid-template-rows: auto repeat(3, 1fr);\\n  padding: 1em;\\n  background-color: purple;\\n  grid-column: nav-start/header-start;\\n  grid-row: page-top/page-bottom;\\n  font-size: 1.5rem;\\n}\\n.nav__heading-container {\\n  margin-bottom: 4rem;\\n}\\n.nav__item {\\n  list-style: none;\\n  font-weight: 600;\\n  margin-bottom: 1.5rem;\\n}\\n\\n.header__container {\\n  display: grid;\\n  grid-column: header-start/header-end;\\n  grid-template-columns: 2fr 1fr;\\n  grid-template-rows: auto auto;\\n  row-gap: 1.5rem;\\n  padding: 1.2rem 4rem;\\n  background-color: pink;\\n  color: black;\\n}\\n\\n.search-bar__container {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.search-bar__form {\\n  width: 100%;\\n}\\n.search-bar__input {\\n  width: 100%;\\n  border: none;\\n  border-radius: 10px;\\n}\\n\\n.user-info__container {\\n  display: flex;\\n  justify-content: flex-end;\\n  align-items: center;\\n  column-gap: 1rem;\\n}\\n.user-info__profile-icon {\\n  width: 2rem;\\n  aspect-ratio: 1/1;\\n  border: 1px solid black;\\n  border-radius: 2rem;\\n}\\n.user-info__name {\\n  font-weight: 600;\\n}\\n\\n.user-intro__container {\\n  display: grid;\\n  grid-template-columns: auto 2fr;\\n  grid-template-rows: 1fr 1fr;\\n  column-gap: 1rem;\\n}\\n.user-intro__profile-icon {\\n  grid-row: 1/3;\\n  width: 4rem;\\n  aspect-ratio: 1/1;\\n  border: 1px solid black;\\n  border-radius: 4rem;\\n}\\n.user-intro__line {\\n  display: flex;\\n  align-items: center;\\n}\\n.user-intro__name {\\n  display: flex;\\n  align-items: center;\\n  font-size: 1.5rem;\\n  font-weight: 600;\\n}\\n\\n.button {\\n  width: 7em;\\n  padding: 0.7rem 0rem;\\n  background-color: lightcoral;\\n  border: none;\\n  border-radius: 1.5rem;\\n  color: white;\\n  font-size: 0.9rem;\\n}\\n.button__container {\\n  display: flex;\\n  justify-content: start;\\n  align-items: center;\\n  column-gap: 1rem;\\n}\\n\\n.main__container {\\n  display: grid;\\n  grid-column: header-start/page-end;\\n  grid-row: header-bottom/page-bottom;\\n  grid-template-columns: 2fr 1fr;\\n  grid-template-rows: 1fr 1fr;\\n  column-gap: 1rem;\\n  padding: 1rem 2rem 2rem 1rem;\\n}\\n\\n.project__container {\\n  display: grid;\\n  grid-template-columns: 1fr 1fr;\\n  grid-template-rows: auto 1fr 1fr 1fr;\\n  grid-row: 1/3;\\n  gap: 1rem;\\n  background-color: yellow;\\n}\\n.project__heading {\\n  grid-column: 1/3;\\n}\\n.project__item {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  padding: 0rem 1rem;\\n  border-radius: 1rem;\\n  box-shadow: 0 0 3px black;\\n}\\n.announcement__container {\\n  display: grid;\\n  grid-template-columns: 1fr;\\n  grid-template-rows: 1fr 1fr;\\n  background-color: lightblue;\\n}\\n\\n.trending__container {\\n  background-color: lightgreen;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://admin-dashboard/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  margin: 0;\\n  font-family: Arial, Helvetica, sans-serif;\\n  color: rgb(238, 238, 238);\\n}\\n\\nul {\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6 {\\n  margin: 0;\\n}\\n\\np {\\n  margin: 0;\\n}\\n\\n.page-container {\\n  display: grid;\\n  height: 100vh;\\n  grid-template-columns: [nav-start] 25vw [header-start] 1fr [header-end];\\n  grid-template-rows: [page-top] auto [header-bottom] 1fr [page-bottom];\\n}\\n\\n.nav__container {\\n  display: grid;\\n  grid-template-rows: auto repeat(3, 1fr);\\n  padding: 1em;\\n  background-color: purple;\\n  grid-column: nav-start/header-start;\\n  grid-row: page-top/page-bottom;\\n  font-size: 1.5rem;\\n}\\n.nav__heading-container {\\n  margin-bottom: 4rem;\\n}\\n.nav__icon {\\n  width: 20px;\\n  height: 20px;\\n}\\n.nav__item {\\n  list-style: none;\\n  font-weight: 600;\\n  margin-bottom: 1.5rem;\\n}\\n\\n.header__container {\\n  display: grid;\\n  grid-column: header-start/header-end;\\n  grid-template-columns: 2fr 1fr;\\n  grid-template-rows: auto auto;\\n  row-gap: 1.5rem;\\n  padding: 1.2rem 4rem;\\n  background-color: pink;\\n  color: black;\\n}\\n\\n.search-bar__container {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.search-bar__form {\\n  width: 100%;\\n}\\n.search-bar__input {\\n  width: 100%;\\n  border: none;\\n  border-radius: 10px;\\n}\\n\\n.user-info__container {\\n  display: flex;\\n  justify-content: flex-end;\\n  align-items: center;\\n  column-gap: 1rem;\\n}\\n.user-info__profile-icon {\\n  width: 2rem;\\n  aspect-ratio: 1/1;\\n  border: 1px solid black;\\n  border-radius: 2rem;\\n}\\n.user-info__profile-icon--trending {\\n  grid-column: 1/2;\\n  grid-row: 1/3;\\n  width: 2rem;\\n  aspect-ratio: 1/1;\\n  border: 1px solid black;\\n  border-radius: 2rem;\\n}\\n.user-info__name {\\n  font-weight: 600;\\n}\\n\\n.user-intro__container {\\n  display: grid;\\n  grid-template-columns: auto 2fr;\\n  grid-template-rows: 1fr 1fr;\\n  column-gap: 1rem;\\n}\\n.user-intro__profile-icon {\\n  grid-row: 1/3;\\n  width: 4rem;\\n  aspect-ratio: 1/1;\\n  border: 1px solid black;\\n  border-radius: 4rem;\\n}\\n.user-intro__line {\\n  display: flex;\\n  align-items: center;\\n}\\n.user-intro__name {\\n  display: flex;\\n  align-items: center;\\n  font-size: 1.5rem;\\n  font-weight: 600;\\n}\\n\\n.button {\\n  width: 7em;\\n  padding: 0.7rem 0rem;\\n  background-color: lightcoral;\\n  border: none;\\n  border-radius: 1.5rem;\\n  color: white;\\n  font-size: 0.9rem;\\n}\\n.button__container {\\n  display: flex;\\n  justify-content: start;\\n  align-items: center;\\n  column-gap: 1rem;\\n}\\n\\n.main__container {\\n  display: grid;\\n  grid-column: header-start/page-end;\\n  grid-row: header-bottom/page-bottom;\\n  grid-template-columns: 2fr 1fr;\\n  grid-template-rows: 1fr 1fr;\\n  column-gap: 1rem;\\n  row-gap: 2rem;\\n  padding: 1rem 2rem 2rem 1rem;\\n}\\n\\n.project__container {\\n  display: grid;\\n  grid-template-columns: 1fr 1fr;\\n  grid-template-rows: auto 1fr 1fr 1fr;\\n  grid-row: 1/3;\\n  gap: 1rem;\\n  background-color: yellow;\\n}\\n.project__heading {\\n  grid-column: 1/3;\\n}\\n.project__item {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  padding: 0rem 1rem;\\n  border-radius: 1rem;\\n  box-shadow: 0 0 3px black;\\n}\\n.announcement__container {\\n  display: grid;\\n  grid-template-columns: 1fr;\\n  grid-template-rows: auto 1fr;\\n  background-color: lightblue;\\n}\\n.announcement__heading {\\n  margin-bottom: 1rem;\\n}\\n.announcement__inner-container {\\n  display: grid;\\n  row-gap: 1rem;\\n  padding: 2em;\\n  border: 1px solid black;\\n  border-radius: 1rem;\\n}\\n.announcement__item {\\n  display: flex;\\n  flex-direction: column;\\n  row-gap: 0.5rem;\\n}\\n.announcement__title {\\n  font-weight: 600;\\n}\\n.announcement__line {\\n  margin-left: 0;\\n  margin-right: 0;\\n}\\n\\n.trending__container {\\n  display: grid;\\n  grid-template-rows: auto 1fr;\\n  background-color: lightgreen;\\n}\\n.trending__heading {\\n  margin-bottom: 1rem;\\n}\\n.trending__inner-container {\\n  display: grid;\\n  padding: 2em;\\n  border: 1px solid black;\\n  border-radius: 1rem;\\n}\\n.trending__item {\\n  display: flex;\\n  align-items: center;\\n  column-gap: 1rem;\\n}\\n.trending__username {\\n  display: block;\\n  margin-bottom: 0.5rem;\\n  align-items: center;\\n}\\n.trending__project-name {\\n  display: block;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://admin-dashboard/./src/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\r\n\n\n//# sourceURL=webpack://admin-dashboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _src_assets_home_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/assets/home.svg */ \"./src/assets/home.svg\");\n\n\n\n\n//# sourceURL=webpack://admin-dashboard/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/home.svg":
+/*!*****************************!*\
+  !*** ./src/assets/home.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"home.svg\";\n\n//# sourceURL=webpack://admin-dashboard/./src/assets/home.svg?");
 
 /***/ })
 
@@ -171,6 +181,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +207,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

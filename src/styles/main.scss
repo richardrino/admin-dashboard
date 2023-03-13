@@ -41,11 +41,16 @@ p {
 		grid-column: nav-start / header-start;
 		grid-row: page-top / page-bottom;
 
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	&__heading-container {
 		margin-bottom: 4rem;
+	}
+
+	&__icon {
+		width: 1em;
+		padding-right: 0.6rem;
 	}
 
 	&__item {
