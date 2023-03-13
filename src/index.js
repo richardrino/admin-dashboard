@@ -8,6 +8,8 @@ import people from './assets/people.svg';
 import cog from './assets/cog.svg';
 import question from './assets/question.svg';
 import sheild from './assets/shield-check.svg';
+import magnify from './assets/magnify.svg';
+import bell from './assets/bell.svg';
 
 const homeIcon = document.querySelector('.nav__icon[data-icon="home"]');
 homeIcon.src = home;
@@ -29,3 +31,9 @@ const questionIcon = document.querySelector('.nav__icon[data-icon="support"]');
 questionIcon.src = question;
 const shieldIcon = document.querySelector('.nav__icon[data-icon="privacy"]');
 shieldIcon.src = sheild;
+const magnifyIcon = document.querySelector('.nav__icon[data-icon="magnify"]');
+magnifyIcon.src = magnify;
+const bellIcon = document.querySelector('.nav__icon[data-icon="bell"]');
+bellIcon.src = bell;
+
+console.log(home);
