@@ -13,6 +13,7 @@ import bell from './assets/bell.svg';
 import starPlus from './assets/star-plus.svg';
 import eyePlus from './assets/eye-plus.svg';
 import share from './assets/share.svg';
+import penguin from './assets/penguin-profile.png';
 
 // Sidebar
 const homeIcon = document.querySelector('.nav__icon[data-icon="home"]');
@@ -41,6 +42,10 @@ const magnifyIcon = document.querySelector('.nav__icon[data-icon="magnify"]');
 magnifyIcon.src = magnify;
 const bellIcon = document.querySelector('.nav__icon[data-icon="bell"]');
 bellIcon.src = bell;
+let profilePic = document.querySelector('.user-info__profile-icon');
+profilePic.style.backgroundImage = `url("${penguin}")`;
+profilePic = document.querySelector('.user-intro__profile-icon');
+profilePic.style.backgroundImage = `url("${penguin}")`;
 
 // Projects section
 const starIconList = document.querySelectorAll('.nav__icon[data-icon="star"]');
@@ -54,5 +59,3 @@ const shareIconList = document.querySelectorAll(
 );
 const shareIcons = [...shareIconList];
 shareIcons.forEach((shareIcon) => (shareIcon.src = share));
-
-console.log(home);
